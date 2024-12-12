@@ -33,3 +33,6 @@ export class MainPageComponent {
   }
 
 }
+
+//onNewCharacter(): Añade un nuevo personaje a la lista characters
+//OnDeleteCharacter(): Elimina un personaje de la lista según el índice proporcionado
