@@ -13,3 +13,4 @@ export class MainPageComponent {
     { name: 'Vegeta', power: 4000 }
   ];
 }
+asdasd
