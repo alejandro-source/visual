@@ -25,3 +25,6 @@ export class AddCharacterComponent {
 
     }
 }
+
+// @Output(): Define un evento que el componente hijo puede emitir al componente padre. En este caso, se emite el personaje recién creado
+// emitCharacter(): Valida que el nombre no esté vacío. Si no lo está, emite el objeto character y luego limpia el formulario
