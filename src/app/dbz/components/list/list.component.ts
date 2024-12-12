@@ -27,3 +27,7 @@ onDeteteCharacter(index:number):void{
   }
 
 }
+
+
+// @Input(): Recibe la lista de personajes desde el componente padre
+// onDeteteCharacter(): Emite el índice del personaje que se desea eliminar
