@@ -23,3 +23,4 @@ export class AppComponent implements OnInit {
     this.products = products;  // Assign the imported products array to this.products
   }
 }
+// Comentario de prueba para nueva rama
