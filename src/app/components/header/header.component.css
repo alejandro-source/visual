@@ -1,0 +1,44 @@
+/* header.component.css */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header app-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header app-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid cyan;
+  }
+  
+  header app-avatar img[ng-style] {
+    /* Estilo adicional para ngStyle basado en el rol (si es necesario) */
+  }
+  
+  header app-title {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .active {
+    background: cyan;
+    color: white;
+  }
